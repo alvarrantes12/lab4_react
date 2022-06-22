@@ -1,19 +1,155 @@
 .App {
   text-align: center;
-  border: 5px solid blue;
+  border: 5px solid rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,23,201,0.865983893557423) 0%, rgba(0,212,255,1) 100%);
+  height: 100vh;
 }
 .First-Title{
-  color: red;
+  color: rgb(129, 57, 57);
+  background: rgb(255, 255, 255);
+  border: 15px outset #ffffff;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  margin-top: 21px;
 }
 
 .First-Title-Div{
-  border-style: dashed;
+  border-style: solid;
 }
 
 .Component-Title{
-  color: chartreuse;
-  background: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
+
+.Movie-Table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Movie-Table, .tg, td{
+    background-color:#EBF5FF;
+    border-color:#9ABAD9;
+    border-style:solid;
+    border-width:1px;
+    color:#444;
+    font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+  }
+
+.Movie-Table, .tg, th{
+  background-color:#409cff;
+  border-color:#9ABAD9;
+  border-style:solid;
+  border-width:1px;
+  color:rgb(255, 255, 255);
+  font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.Movie-Table, .tg, .tg-cly1{
+  text-align:left;
+  vertical-align:middle
+}
+
+.Movie-Table, .tg .tg-0lax{
+  text-align:left;
+  vertical-align:top
+}
+
+.css-input {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.75);
+  width: 400px;
+  height: 25px;
+  margin-bottom: 8px;
+}
+.css-input:focus {
+  outline:none;
+}
+
+.create-button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-top: 5px;
+}
+
+.create-Button:hover {
+	background-color:#5cbf2a;
+}
+
+.create-Button:active {
+	position:relative;
+	top:1px;
+}
+
+.edit-button {
+	background-color:#5c87d1;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  margin-top: 5px;
+}
+.edit-button:hover {
+	background-color:#476e9e;
+}
+.edit-button:active {
+	position:relative;
+	top:1px;
+}
+
+.delete-button {
+	background-color:#e4685d;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+  margin-top: 5px;
+}
+.delete-button:hover {
+	background-color:#eb675e;
+}
+.delete-button:active {
+	position:relative;
+	top:1px;
+}
+
 
 .container {
   display: flex;
