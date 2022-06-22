@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #4f4f4f;
 }
 
 .App-logo {
@@ -35,4 +36,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.div-list{
+  background: #858686;
+  border-radius: 4rem;
+  margin: 10px;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  list-style-type: decimal
+}
+
+.div-titulo{
+  background: #000000;
+  border-radius: 5rem;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  padding: 0.1rem;
+}
+
+
+.Component-Title{
+  border-radius: 4rem;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  padding: 0.1rem;
+}
+
+input{
+  border-radius: 4rem;
+  padding: 0.8rem;
+  background: #d1c7c7;
+  color: rgb(0, 0, 0);
+  margin: 3.8px;
+}
+
+button{
+  border-radius: 1rem;
+  padding: 0.7rem;
+  background: #282c34;
+  color: antiquewhite;
 }
