@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.First-Title{
+  color: rgb(0, 97, 0);
+}
+.No-Contents{
+  color: rgb(0, 201, 0);
+}
+.Component-Title{
+  color: rgb(0, 201, 0);
+}
+
+.Delete-button{
+  color: black;
+  background-color: red;
+}
+
+.Edit-button{
+  color: black;
+  background-color: rgba(9, 134, 9, 0.774);
+}
+
+.Create-Button{
+  color: black;
+  background-color: rgb(52, 96, 190);
+}
