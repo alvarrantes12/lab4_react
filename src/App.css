@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  border: 5px solid black;
+
 }
 
 .App-logo {
@@ -28,6 +30,26 @@
   color: #61dafb;
 }
 
+.boton{
+  font-size:12px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:#0000FF;
+  background:#A4C1FF;
+  border:0px;
+  width:90px;
+  height:25px;
+}
+
+.campos { 
+  font-family:verdana,arial; 
+  width: 200px;
+  font-size:8pt;
+  color:#000000;
+  border: 1px dotted rgb(0, 0, 0);
+  background-color:#ffffff; 
+} 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +58,12 @@
     transform: rotate(360deg);
   }
 }
+
+.First-Title{
+  color: rgb(0, 0, 0);
+}
+
+.First-Title-Div{
+  border-style: dashed;
+}
+
