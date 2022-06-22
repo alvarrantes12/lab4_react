@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(gray, white);
 }
 
 .App-logo {
@@ -35,4 +36,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Title {
+  border-style: groove;
+}
+
+h2 {
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.List-Format {
+  margin: 10px;
+  border-style: groove;
+}
+
+input {
+  height: 30px;
+  margin: 5px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Button-Add {
+  background-color: #77dd77;
+}
+
+.Button-Edit {
+  background-color: #fdfd96;
+}
+
+.Button-Delete {
+  background-color: #ff9688;
 }
