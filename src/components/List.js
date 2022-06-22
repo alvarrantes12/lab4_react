@@ -8,28 +8,28 @@ const List = (props) => {
   return (
     <ul>
       <h2 className="Component-Title"> Estos son los contenidos disponibles</h2>
-      {contents.map(({id, name, age, director: {first_name, last_name}}) => {
-        return (
-          <table>
-            <thead>
-              <tr>
-                <th>ID</th>
-                <th>Nombre</th>
-                <th>Año de estreno</th>
-                <th>Director</th>
-              </tr>
-            </thead>
+      <table className="Movie-Table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Año de estreno</th>
+            <th>Director</th>
+          </tr>
+        </thead>
+        {contents.map(({ id, name, age, director: { first_name, last_name } }) => {
+          return (
             <tbody>
               <tr>
                 <td>{id}</td>
                 <td>{name}</td>
                 <td>{age}</td>
-                <td><>{first_name}</> <>{last_name}</></td>
+                <td><>{first_name} {last_name}</></td>
               </tr>
             </tbody>
-          </table>
-        );
-      })}
+          );
+        })}
+      </table>
     </ul>
   )
 }

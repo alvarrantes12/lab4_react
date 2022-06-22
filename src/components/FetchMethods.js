@@ -1,9 +1,9 @@
-export async function getFetch(path) {
+async function getFetch(path) {
   let response = await fetch(`${process.env.REACT_APP_API_URL}/${path}`);
   return await response.json();
 }
 
-export async function postFetch(path,body){
+async function postFetch(path,body){
   let response = await fetch(`${process.env.REACT_APP_API_URL}/${path}`, {
     method: 'POST',
     headers: {
@@ -15,7 +15,7 @@ export async function postFetch(path,body){
   return await response.json();
 }
 
-export async function putFetch(path,body) {
+async function putFetch(path,body) {
   let response = await fetch(`${process.env.REACT_APP_API_URL}/${path}`, {
     method: 'PUT',
     headers: {
@@ -26,9 +26,11 @@ export async function putFetch(path,body) {
   return await response.json();
 }
 
-export async function deleteFetch(path){
+async function deleteFetch(path){
   let response = await fetch(`${process.env.REACT_APP_API_URL}/${path}`, {
     method: 'DELETE'
   });
   return await response.json();
 }
+
+export { getFetch, postFetch, putFetch, deleteFetch };
