@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+  background-color:#FFFCF2;
+  border-style: ridge;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.First-Title {
+  color: #252422;
+}
+.Second-Title {
+  color: #33312e;
+}
+.Component-Title {
+  color: #3A3734;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +38,41 @@
 
 .App-link {
   color: #61dafb;
+}
+
+table {
+  text-align: left;
+  border: #CCC5B9 2px solid;
+  width:100%;
+  border-collapse: collapse;
+}
+
+th {
+  border: #CCC5B9 2px solid;
+  border-collapse: collapse;
+  background-color: rgb(32, 31, 31);
+  color: white;
+}
+
+td {
+  border: #CCC5B9 2px solid;
+}
+
+input {
+  margin: 10px;
+  background-color: #FFFCF2;
+  color: black;
+  border-style: double;
+  border-color: black;
+}
+
+button{
+  background-color: #E5E2DC;
+  border-style:double; 
+}
+
+button:hover{
+  background-color: #CCC5B9;
 }
 
 @keyframes App-logo-spin {
