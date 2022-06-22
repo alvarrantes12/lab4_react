@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+  background-color:#E4DFDA;
+  border-style: dotted;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.First-Title {
+  color: #731DD8;
+}
+.Second-Title {
+  color: #B481EE;
+}
+.Component-Title {
+  color: #6B1BC5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  text-align: center;
+  border: #5F5245 2px solid;
+  width: 1500px;
+  border-collapse: collapse;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+th {
+  border: #000000 2px solid;
+  border-collapse: collapse;
+  background-color: #000000;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Submit-Button{
+  background-color: #48A9A6;
+  border-style:double; 
 }
+
+.Submit-Button:hover{
+  background-color: #A9DAD9;
+}
+
+.Delete-Button{
+  background-color: #C1666B;
+  border-style:double; 
+}
+
+.Delete-Button:hover{
+  background-color: #DCA8AB;
+}
+
+.Edit-Button{
+  background-color: #7D787A;
+  border-style:double; 
+}
+
+.Edit-Button:hover{
+  background-color: #B9B6B7;
+}
+
+
+
