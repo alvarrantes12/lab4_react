@@ -8,6 +8,6 @@ function WithLoadingList(Component) {
             <p>Espere, estamos cargando la informacion</p>
         );
     };
-}
+};
 
 export default WithLoadingList;

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react";
 import { getFetch, postFecth, putFetch, deleteFetch } from "./components/FetchMethods";
-import List from "./components/List"
+import List from "./components/List";
 import WithLoadingList from "./components/WithLoadingList";
-import './App.css'
+import './App.css';
 function App() {
   const LoadingList = WithLoadingList(List);
   const [AppStateLoading, setAppStateLoading] = useState(false);
@@ -65,7 +65,7 @@ function App() {
         setRefresh(true);
       })
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
   }
 
@@ -76,7 +76,7 @@ function App() {
         setIdDelete("");
         setMessage3("Borrado correctamente");
 
-        setRefresh(true)
+        setRefresh(true);
       })
     } catch (error) {
       console.log(error);
