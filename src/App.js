@@ -12,8 +12,8 @@ function App() {
 
 
   const [name, setName] = useState("");
-  const [yearOfPublication, setYearOfPublication] = useState("");
-  const [idDirector, setIdDirector] = useState("");
+  const [year_of_publication, Set_Year_of_publication] = useState("");
+  const [director_id, setDirector_id] = useState("");
   const [message1, setMessage1] = useState("");
   const [refresh, setRefresh] = useState(true);
 
@@ -36,10 +36,10 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      postFetch("movies",{name: name, yearOfPublication: yearOfPublication, idDirector: idDirector}).then(() => {
+      postFetch("movies",{name: name, year_of_publication: year_of_publication, director_id: director_id}).then(() => {
         setName("");
-        setYearOfPublication("");
-        setIdDirector("");
+        Set_Year_of_publication("");
+        setDirector_id("");
         setMessage1("Creado correctamente");
         setRefresh(true);
       });
@@ -95,17 +95,17 @@ function App() {
 
         <input
         type="text"
-        value={yearOfPublication}
+        value={year_of_publication}
         placeholder="Año de publicación"
-        onChange={(e) => setYearOfPublication(e.target.value)}
+        onChange={(e) => Set_Year_of_publication(e.target.value)}
         style={{width: "400px"}}
         />
 
         <input
         type="text"
-        value={idDirector}
+        value={director_id}
         placeholder="Id del Director"
-        onChange={(e) => setIdDirector(e.target.value)}
+        onChange={(e) => setDirector_id(e.target.value)}
         style={{width: "400px"}}
         />
 
