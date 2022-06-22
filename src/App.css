@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: rgb(183, 228, 225);
 }
 
 .App-logo {
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(127, 155, 197);
 }
 
 .App-link {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.First-Title {
+  color: rgb(20, 23, 241);
+}
+
+.Component-Message{
+  color: rgb(194, 23, 194);
+}
+
+.Component-Title{
+  color: rgb(94, 187, 31);
+}
+
+.Component-Attribute{
+  color: black;
 }
