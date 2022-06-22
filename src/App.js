@@ -77,8 +77,8 @@ function App() {
 
   return(
     <div className = "App">
-      <div style={{borderStyle: "dashed"}}>
-        <h2 className="First-Title">  Conexión API local</h2>
+      <div >
+        <h2 className= "Component-Title">  Conexión API local</h2>
       </div>
       <div>
         <LoadingList isLoading={appStateLoading} contents={appStateObject}/>
@@ -111,7 +111,7 @@ function App() {
 
 
         <div>{message1 ? <p>{message1}</p> : null}</div>
-        <button type="submit">Crear</button>
+        <button type="submit" className= "Button-Create">Crear</button>
       </form>
 
       <br />
@@ -131,7 +131,7 @@ function App() {
           style={{width: "400px"}}
         />
         <div>{message2 ? <p>{message2}</p> : null}</div>
-        <button type="submit"> Editar</button>
+        <button type="submit" className= "Button-Edit"> Editar</button>
       </form>
 
       <br />
@@ -143,7 +143,7 @@ function App() {
         onChange={(e) => setIdDelete(e.target.value)}
         />
         <div>{message3 ? <p>{message3}</p> : null}</div>
-        <button type="submit"> Eliminar</button>
+        <button type="submit" className= "Button-Delete"> Eliminar</button>
       </form>
     </div>
   );

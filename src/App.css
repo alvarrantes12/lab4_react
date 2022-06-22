@@ -1,7 +1,74 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
+.Data-Id{
+  background-color: #D4F0F0
+}
+
+.Data-Separator{
+  background-color: #ECEAE4
+}
+
+.Data-MovieName{
+  background-color: #FFDBCC
+}
+
+.Data-Year{
+  background-color: #F6EAC2
+}
+
+.Data-Director{
+  background-color: #CCE2CB
+}
+
+.Button-Create {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;	
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.Button-Edit {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;	
+  color: #fff;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 15px;
+} 
+
+.Button-Delete {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;	
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 15px;
+} 
 
 .container {
   display: flex;

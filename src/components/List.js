@@ -7,15 +7,15 @@ const List = (props) => {
 
   return (
     <ul>
-      <h2 className= "Component-Title"> Estos son los contenidos disponibles</h2>
+      <h2> Estos son los contenidos disponibles</h2>
       {contents.map((content) =>{
         return (
-          <div style={{background: "yellow", margin: "10px"}}>
+          <div style={{ margin: "20px"}} >
               <li key={content.id}> 
-                <span className="Component-Title"><b>Id:</b> {content.id}</span>
-                <span className="Component-Title"><b>   Nombre Pelicula:</b> {content.name}</span>
-                <span className="Component-Title"><b>   Año de publicación:</b> {content.year_of_publication}</span>
-                <span className="Component-Title"><b>   Director:</b> {content.director.name}</span>
+                <span className= "Data-Id"> <b>Id:</b> {content.id} <b className= "Data-Separator"> | </b></span>
+                <span className= "Data-MovieName"> <b>Nombre Pelicula:</b> {content.name} <b className= "Data-Separator"> | </b></span>
+                <span className= "Data-Year"> <b>Año de publicación:</b> {content.year_of_publication} <b className= "Data-Separator"> | </b></span>
+                <span className= "Data-Director"> <b>Director:</b> {content.director.name} <b className= "Data-Separator"> | </b></span>
               </li>
           </div>
         
