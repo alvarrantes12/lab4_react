@@ -93,7 +93,6 @@ function App() {
           placeholder="Nombre de la pelicula"
           onChange={(e) => setName(e.target.value)}
           style={{ width: "400px" }}
-<<<<<<< HEAD
         />
         <br />
         <input
@@ -114,28 +113,6 @@ function App() {
           style={{ width: "400px" }}
         />
         <div className="user-message">{message1 ? <p>{message1}</p> : null}</div>
-=======
-        />
-        <br />
-        <input
-          type="text"
-          className="css-input"
-          value={year}
-          placeholder="Año de estreno"
-          onChange={(e) => setYear(e.target.value)}
-          style={{ width: "400px" }}
-        />
-        <br />
-        <input
-          type="text"
-          className="css-input"
-          value={directorId}
-          placeholder="ID del director"
-          onChange={(e) => setDirectorId(e.target.value)}
-          style={{ width: "400px" }}
-        />
-        <div>{message1 ? <p>{message1}</p> : null}</div>
->>>>>>> 4da95300a119686cb0982a17c5a7785770301bed
         <button type="submit" className="create-button">Crear</button>
       </form>
 
@@ -156,11 +133,7 @@ function App() {
           placeholder="Nombre de la pelicula"
           onChange={(e) => setNameEdit(e.target.value)}
         />
-<<<<<<< HEAD
         <div className="user-message">{message2 ? <p>{message2}</p> : null}</div>
-=======
-        <div>{message2 ? <p>{message2}</p> : null}</div>
->>>>>>> 4da95300a119686cb0982a17c5a7785770301bed
         <button type="submit" className="edit-button"> Editar</button>
       </form>
 
@@ -173,11 +146,7 @@ function App() {
           placeholder="Identificador de la pelicula"
           onChange={(e) => setIdDelete(e.target.value)}
         />
-<<<<<<< HEAD
         <div className="user-message">{message3 ? <p>{message3}</p> : null}</div>
-=======
-        <div>{message3 ? <p>{message3}</p> : null}</div>
->>>>>>> 4da95300a119686cb0982a17c5a7785770301bed
         <button type="submit" className="delete-button"> Eliminar</button>
       </form>
     </div>
