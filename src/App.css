@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  
+  background: #14213d;
 }
 
 .App-logo {
@@ -36,3 +37,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+.List-Element{
+  color: #e5e5e5;
+  background-color: #000000;
+  
+}
+
+.First-Title{
+  text-align: center;
+  border-style: "outset"; 
+  color: #fca311;
+  
+}
+
+.Button_Style{
+  margin: 20px;
+  background-color: #14213D;
+  color: #fca311;
+  border-style:hidden;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+}
+
+.Input_Style{
+  margin: 20px;
+}
+
+.Form_Style{
+  background-color: #E5E5E5;
+  text-align: left;
+  border-radius: 10px;
+  border-color: #9FB8AD;
+  border-style: ridge;
+  width: 30%;
+
+}
+
+
