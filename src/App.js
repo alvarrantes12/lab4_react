@@ -117,7 +117,7 @@ function App() {
         <input
         type="text"
         color= '#E8E9EB'
-        value={id}
+        value={idEdit}
         placeholder="Identificador"
         onChange={(e) => setIdEdit(e.target.value)}
         />
