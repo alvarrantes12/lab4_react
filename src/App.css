@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+#submitNew {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 10px 20px 0;
+  border: 1px solid rgb(111, 195, 78);
+  background: rgb(118, 201, 83);
+  border-radius: 8px 8px 8px 8px;
+}
+#submitEdit {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 10px 20px 0;
+  border: 1px solid rgb(90, 133, 213);
+  background: rgb(118, 162, 238);
+  border-radius: 8px 8px 8px 8px;
+}
+#submitDelete {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 10px 20px 0;
+  border: 1px solid rgb(231, 88, 88);
+  background: rgb(225, 92, 92);
+  border-radius: 8px 8px 8px 8px;
+}
+
+#submitNew:hover {
+  background: rgb(197, 224, 137);
+}
+#submitEdit:hover {
+  background: rgb(154, 173, 229);
+}
+#submitDelete:hover {
+  background: rgb(243, 165, 165);
+}
+input.text, textarea.text{
+  background: silver;
+  border: 1px solid #393939;
+  border-radius: 5px 5px 5px 5px;
+  color: #393939;
+  font-size: 12px;
+  padding: 5px;
+}
+.content {
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;   
+  padding-bottom: 10px;
+  background-color: steelblue;
+  width: 97%;
+}
+
+.left {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 57px;
+  float: left;
+  position: relative;
+  width: 30%;
+  border: steelblue solid 1px;
+  height: auto;
+}
+
+
+.right {
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  width: 30%;
+  border: steelblue solid 1px;
+  height: auto;
+}
